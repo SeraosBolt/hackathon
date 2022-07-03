@@ -15,6 +15,3 @@ body.onload = function(){ // quando carrega o body inicia a função
     }
 }
 
-function seila(){
-    p.innerHTML = p.innerHTML+ "Fiadaputa"
-}

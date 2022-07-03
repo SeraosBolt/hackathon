@@ -1,3 +1,40 @@
-#oi {
-    background-color: balck;
+div{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
 }
+
+.header{
+    width: auto;
+    height: 70px;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    display: block;
+    box-align: left 10px;
+}
+
+.pages{
+    background-color: lightblue;
+    width: 35.33%;
+    
+}
+
+#botHr{
+    float: bottom;
+}
+
+.row{
+    width: 1%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

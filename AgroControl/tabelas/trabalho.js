@@ -25,7 +25,17 @@ let cad2 =[];
 let cad3 =[];
 let cad4 =[];
 
-quantia.addEventListener("keypress", function(event) {
+// variaveis da função pop-up //////////////////////////////////////////
+
+let btnAdicionaProduto = document.querySelector("#btnAdicionaProduto");
+let saver = document.querySelector("#saver");
+let man1 = document.querySelector("#man1");
+let selectProduto = document.querySelector("#selectProduto"); // é o select com as opções de produtos
+let pItem = document.querySelector("#pItem");
+
+////////////////////////////////////////////////////////////////////////
+
+/*quantia.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault();
       armazenamento()
@@ -45,4 +55,20 @@ function armazenamento(){
   }
 salvar.onclick = function(){
     armazenamento()
+}*/
+
+function newPopup(){
+  let varWindow = window.open('popup.html','popup',"width=550, height=255, top=100, left=110, scrollbars=no ")
+}
+
+btnAdicionaProduto.onclick = function(){
+  newPopup()
+}
+
+function adcDataToTableRow(){
+  pItem.textContent = String(selectProduto.value)
+}
+
+saver.onclick = function(){
+  adcDataToTableRow();
 }

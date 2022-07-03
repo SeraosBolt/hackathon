@@ -20,33 +20,33 @@
            <th>Quantidade de Fertilizantes</th>
             <td><input id="peso1" type="number" placeholder="kg ou L"></td>
             <td><input id="venda1" type="text" placeholder="Fornecedor"></td>
-            <td><input id="valor1" type="number" placeholder="valor pago"></td>
+            <td><input id="valor1" type="number" placeholder="valor pago por kg"></td>
         </tr>
         <tr>
            <th>Quantidade de Agrotoxicos</th>
             <td><input id="peso2" type="number" placeholder="kg ou L"></td>
             <td><input id="venda2" type="text" placeholder="Fornecedor"></td>
-            <td><input id="valor2" type="number" placeholder="valor pago"></td>
+            <td><input id="valor2" type="number" placeholder="valor pago por L ou KG"></td>
         </tr>
         <tr>
             <th>Quantidade de Sementes</th>
             <td><input id="sacas" type="number" placeholder="Sacas"></td>
             <td><input id="venda3" type="text" placeholder="Fornecedor"></td>
-            <td><input type="number" id="compra" placeholder="valor de Compra"></td>
+            <td><input type="number" id="compra" placeholder="valor de Compra por saca"></td>
         </tr>
         <tr>
            <th>Estado do Maquinario</th>
             <td><input id="maquinario" type="text" placeholder="maquina"></td>
             <td><input id="data" type="text" placeholder="data proxima manutençao"></td>
+            <td><input id="old" type="number" placeholder="data ultima manutençao"></td>
         </tr>
         <tr>
             <th>Rendimento</th>
-            <td><input id="colhido" type="number" placeholder="sacas colhidas"></td>
-            <td><input id="gastos_insumos" type="number" placeholder="insumos(kg) + sementes(saca)"></td>
+            <td><input id="colhido" type="number" placeholder="lucro des sacas colhidas em R$"></td>
         </tr>
         <tr>
             <th>lucro</th>
-            <td><input id="bruto" type="number"placeholder="valor bruto" R$</td>
+            <td><input id="bruto" type="number"placeholder="valor bruto" R$></td>
             <td><input id="despesas" type="number" placeholder="Despesas"></td>
         </tr>
    </Table>
@@ -55,9 +55,20 @@
    <br>
    <div>
     <h4>Repartimento da Lavoura:</h4>
-        <h4>numero de linhas: </h4> <input id="linhas" type="number"><button id="lin" type="button">Salvar linhas</button>
-        <h4>Numero de colunas: </h4> <input id="colunas" type="number"><button id="col" type="button">Salvar colunas</button>
+        <h4>numero de linhas: </h4> <input id="linhas" type="number">
+        <h4>Numero de colunas: </h4> <input id="colunas" type="number"><button id="all" type="button">Calcular</button>
+        <h4>Exibir: </h4><h4 id="tirça" ></h4>
    </div>
+   <table>
+    <tr>
+        <th>Rendimento: </th>
+        <td><h4 id="mix"></h4></td>
+    </tr>
+    <tr>
+        <th>Lucro :</th>
+        <td><h4 id="nix"></h4></td>
+    </tr>
+   </table>
 </body>
 <script src='function.js'></script>
 </html>

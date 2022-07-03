@@ -20,6 +20,8 @@
 .flex-container{
     background-color: lightgray;
     display: grid;
+    gap: 60px 60px;
+    height: 875px;
     justify-content: center;
     grid-template-areas: 
         'menu lucro gastos'
@@ -46,8 +48,9 @@
     grid-area: gastos;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     width: 300px;
+    
     
 }
 .grid-item-grafico{
@@ -65,13 +68,19 @@
     grid-area: relatorio1;
     width: 600PX;
     height: 200px;
-    background-color: green;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: lightgrey;
 
 }
 .grid-item-relatorio2{
     grid-area: relatorio2;
     width: 570PX;
     height: 200px;
-    background-color: yellow;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: lightgrey;  
 
 }

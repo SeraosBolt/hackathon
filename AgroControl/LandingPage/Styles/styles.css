@@ -6,7 +6,7 @@ body{
 }
 
 div{
-    border: 1px solid black; 
+    /*border: 1px solid black;*/ 
     width: 150px;
     height: 50px;
     display: flex;
@@ -16,6 +16,7 @@ div{
 .header{
     width: auto;
     height: 100px;
+    background-color: #175a42;
 }
 
 #logo{
@@ -27,7 +28,7 @@ div{
 }
 
 .pages{
-    background-color: #e0ffaa;
+    background-color: #ffe762;
     width: 33.33%;
     height: 80%;
 }
@@ -48,8 +49,14 @@ div{
     clear: both;
   }
 
-  #news{
+#news{
     float: none;
     margin-right: 30px;
     display: block;
-  }
+    color: #175a42;
+}
+
+.pgsHeader{
+    background-color: #ffe762;
+    width: 33.33%;
+}

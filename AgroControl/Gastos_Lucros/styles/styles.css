@@ -9,13 +9,23 @@
 
 }
 
-.adicionar{
+#somar{
     text-align: center;
-    text-align: justify;
-    width: 100px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
     background-color: #175a42;
     border-radius: 15px;
+    color: #ffe762;
+    font-size: large;
+}
+#subtrair{
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    background-color: #175a42;
+    border-radius: 15px;
+    color: #ffe762;
+    font-size: large;
 }
 .flex-container{
     background-color: lightgray;
@@ -34,8 +44,6 @@
     flex-direction: column;
     justify-content: space-around;
 
-    
-    
 }
 .grid-item-lucros{
     grid-area: lucro;

@@ -49,6 +49,8 @@ div{
 #botHr{
     bottom: 10px;
     height: 750px;
+    display: grid;
+    gap: 10px;
 }
 
 .row{

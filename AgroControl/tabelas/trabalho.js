@@ -19,13 +19,13 @@ let colunas = document.querySelector('#colunas');
 let mix = document.querySelector('#mix');
 let all = document.querySelector('#all');
 let nix = document.querySelector('#nix');
+let tables = document.querySelector("#tables");
+let roll = document.querySelector('#roll');
 let armazenar = "0";
 let cad =[];
 let cad2 =[];
 let cad3 =[];
 let cad4 =[];
-
-// variaveis da função pop-up //////////////////////////////////////////
 
 let btnAdicionaProduto = document.querySelector("#btnAdicionaProduto");
 let saver = document.querySelector("#saver");
@@ -33,9 +33,7 @@ let man1 = document.querySelector("#man1");
 let selectProduto = document.querySelector("#selectProduto"); // é o select com as opções de produtos
 let pItem = document.querySelector("#pItem");
 
-////////////////////////////////////////////////////////////////////////
-
-/*quantia.addEventListener("keypress", function(event) {
+quantia.addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
       event.preventDefault();
       armazenamento()
@@ -43,19 +41,25 @@ let pItem = document.querySelector("#pItem");
   });
 
 function armazenamento(){
+let nome = roll.value;
+let Precompra = peso1.value;
+let qntadd = quantia.value;
+let exp = sacas.value;
+let fornecedor = peso2.value;
     cad.push(Number(quantia.value));
-    quantia.value = " ";
     cad2.push(Number(peso1.value));
-    peso1.value = " ";
     cad3.push(Number(peso2.value));
-    peso2.value = " ";
     cad4.push(Number(sacas.value));
+    tables.innerHTML += "<tr><td>"+nome+"</td><td>"+Precompra+"</td><td>"+qntadd+"</td><td>"+exp+"</td><td>"+fornecedor+"</td></tr>"
     sacas.value = " ";
+    quantia.value = " ";
+    peso1.value = " ";
+    peso2.value = " ";
         
   }
 salvar.onclick = function(){
     armazenamento()
-}*/
+}
 
 function newPopup(){
   let varWindow = window.open('popup.html','popup',"width=550, height=255, top=100, left=110, scrollbars=no ")

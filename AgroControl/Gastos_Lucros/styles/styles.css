@@ -1,7 +1,77 @@
 #head{
     background-color: #175a42;
     color: white;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    ;
+     height: 100px;
+     text-align: center;
+
+}
+
+.adicionar{
+    text-align: center;
+    text-align: justify;
+    width: 100px;
+    height: 50px;
+    background-color: #175a42;
+    border-radius: 15px;
+}
+.flex-container{
+    background-color: lightgray;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        'menu lucro gastos'
+        'menu grafico grafico'
+        'relatorio1 relatorio1 relatorio2';    
+}
+.grid-item-menu{
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+    
+}
+.grid-item-lucros{
+    grid-area: lucro;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.grid-item-gastos{
+    grid-area: gastos;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 300px;
+    
+}
+.grid-item-grafico{
+    grid-area: grafico;
+    width: 900PX;
+    height: 300px;
+    background-color: black;
+}
+
+#grafico{
+    width: 900px;
+    height: 300px;
+}
+.grid-item-relatorio1{
+    grid-area: relatorio1;
+    width: 600PX;
+    height: 200px;
+    background-color: green;
+
+}
+.grid-item-relatorio2{
+    grid-area: relatorio2;
+    width: 570PX;
+    height: 200px;
+    background-color: yellow;
 
 }

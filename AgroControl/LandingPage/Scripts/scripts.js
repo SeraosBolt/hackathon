@@ -1,5 +1,5 @@
 let p = document.querySelector("#oi")
 
 function seila(){
-    p.innerHTML = "Fiadaputa"
+    p.innerHTML = p.innerHTML+ "Fiadaputa"
 }

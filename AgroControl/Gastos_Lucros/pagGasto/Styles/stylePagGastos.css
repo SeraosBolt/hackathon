@@ -1,0 +1,49 @@
+body{
+    width: 500px;
+    height: 300px;
+    /*border: 1px solid black;*/
+    background-color: lightgray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gridContainer{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    'title'
+    'login'
+    'password'
+    'btLogin';
+}
+
+#titleLoginGrid{
+    grid-area: title;
+    align-content: center;
+    width: 400px;
+}
+
+#userInputGrid{
+    grid-area: login;
+    width: 200px;
+}
+
+#passwordInputGrid{
+    grid-area: password;
+    width: 200px;
+}
+
+#divBtnLogin{
+    grid-area: btLogin;
+    width: 200px;
+}
+input{
+    width: 100px;
+    display: inline-flex;
+    float: right;
+}
+

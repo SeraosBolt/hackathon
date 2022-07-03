@@ -15,9 +15,6 @@ body.onload = function(){ // quando carrega o body inicia a função
     }
 }
 
-<<<<<<< HEAD
 function seila(){
     p.innerHTML = p.innerHTML+ "Fiadaputa"
 }
-=======
->>>>>>> 1c7ed2fd5d508e462cbffa59c24f58ed91f881da

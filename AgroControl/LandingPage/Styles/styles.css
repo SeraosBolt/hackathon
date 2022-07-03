@@ -1,10 +1,16 @@
+:root{
+    --main-bg-color: lightgray;
+    --main-font-color: #175a42;
+    --device-width: ;
+}
+
 body{
-    background-color:  lightgray;
+    background-color:  var(--main-bg-color);
     font-size: 38;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
     height: 100%;
     width: auto;
-
+    color: var(--main-font-color);
 }
 
 div{
@@ -19,6 +25,8 @@ div{
     width: auto;
     height: 100px;
     background-color: #175a42;  
+    display: flex;
+    align-content: space-around;
 }
 
 #logo{
@@ -34,10 +42,13 @@ div{
     width: 33.33%;
     height: 80%;
     border: 1px solid black;
+    display: flex;
+    align-content: space-around;
 }
 
 #botHr{
     bottom: 10px;
+    height: 750px;
 }
 
 .row{
@@ -53,9 +64,9 @@ div{
 */
 #news{
     float: none;
-    margin-right: 30px;
+    margin-right: 100pxpx;
     display: block;
-    color: #175a42;
+    color: var(--main-font-color);
 }
 
 .pgsHeader{
@@ -63,6 +74,7 @@ div{
     background-color: #ffe762;
     width: 33.33%;
     padding: auto;
+    display: flex;
 }
 
 /*#pages{
@@ -73,9 +85,14 @@ div{
     padding: 5px;
     text-align: center;
     align-items: justify;
-    color: #175a42;
+    color: var(--main-font-color);
 }
 
-.pages::selection{
-    border: #fffcfc;
+#userName{
+    display: flex;
+}
+
+#userFoto{
+    border: 1px solid black;
+    float: inline-end;
 }

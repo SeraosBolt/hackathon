@@ -1,0 +1,55 @@
+body{
+    background-color:  #fffcfc;
+    font-size: 38;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+
+}
+
+div{
+    border: 1px solid black; 
+    width: 150px;
+    height: 50px;
+    display: flex;
+    padding: 10px;
+}
+
+.header{
+    width: auto;
+    height: 100px;
+}
+
+#logo{
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    display: block;
+    box-align: left 10px;
+}
+
+.pages{
+    background-color: #e0ffaa;
+    width: 33.33%;
+    height: 80%;
+}
+
+#botHr{
+    height: 800px;
+    margin-top: 3%;
+}
+
+.row{
+    width: 1%;
+    padding: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #news{
+    float: none;
+    margin-right: 30px;
+    display: block;
+  }

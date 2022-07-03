@@ -13,26 +13,26 @@
    <Table>
         <tr>
             <th>Produto adquirido</th>
-            <td><select>
-                <optgroup label="sementes">
-                    <option>milho</option>
-                    <option>soja</option>
-                    <option>aveia</option>
-                    <option>feijao</option>
-                    <option>trigo</option>
+            <td><select id="rolle">
+                <optgroup label="sementes"> <!---caixa de seleçao de iten-->
+                    <option value="milho">milho</option>
+                    <option value="soja">soja</option>
+                    <option value="soja">aveia</option>
+                    <option value="feijao">feijao</option>
+                    <option value="trigo">trigo</option>
                 </optgroup>
                  <optgroup label="Insumos">
-                    <option>Adubo</option>
-                    <option>Pesticida</option>
-                    <option>Cal agricola</option>
-                    <option>Herbicida</option>
+                    <option value="Adubo">Adubo</option>
+                    <option value="Pesticida">Pesticida</option>
+                    <option value="Cal agricola">Cal agricola</option>
+                    <option value="Herbicida">Herbicida</option>
                 </optgroup>
                 <optgroup label="Insumos mecanicos">
-                    <option>Arados</option>
-                    <option>Plantadeiras</option>
-                    <option>Tratores agricolas</option>
-                    <option>Pulverizadores</option>
-                    <option>Irrigação</option>
+                    <option value="Arados">Arados</option>
+                    <option value="Plantadeiras">Plantadeiras</option>
+                    <option value="Tratores agricolas">Tratores agricolas</option>
+                    <option value="Pulverizadores">Pulverizadores</option>
+                    <option value="Irrigação">Irrigação</option>
                 </optgroup>
             </select></td>
             <td></td>
@@ -40,7 +40,7 @@
         </tr>
         <tr>
            <th>Preço de compra: </th>
-            <td><input id="peso1" type="number" placeholder="R$"></td>
+            <td><input id="peso1" type="number" placeholder="R$"></td><!--caixas de valores-->
             <td></td>
             <td></td>
         </tr>
@@ -65,38 +65,17 @@
    </Table>
 </div>
    <br>
-   <button id="salvar" type="button" >salvar</button>
+   <button id="salvar" type="button" >salvar</button><!--botao de salvar apertando enter-->
    <br>  <br>
    <br> 
    <hr>
-  <table border="2px" solid black class="man1">
+  <table border="2px" solid black class="man1" id="tabela"><!--tabela que exibe os valores alvos nas caixas-->
     <tr>
         <td>X</td>
         <td>Preço de Compra</td>
         <td>Quantidade adquirida</td>
         <td>Vencimento</td>
         <td>Fornecedor</td>
-    </tr>
-    <tr>
-        <td>Feijao</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
-    </tr>
-    <tr>
-        <td>Milho</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
-    </tr>
-    <tr>
-        <td>Soja</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
-        <td>xxx</td>
     </tr>
   </table>
 </body>

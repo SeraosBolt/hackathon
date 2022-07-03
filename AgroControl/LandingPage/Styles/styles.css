@@ -14,6 +14,8 @@ body{
 }
 
 div{
+    display: flex;
+    justify-content: space-around;
     /*border: 1px solid black;*/
     width: 150px;
     height: 50px;
@@ -39,17 +41,16 @@ div{
 
 .pages{
     background-color: #ffe762 ;
-    width: 33.33%;
-    height: 80%;
+    width: 90%;
+    height: 33.33%;
     border: 1px solid black;
-    display: flex;
-    align-content: space-around;
+    display: grid;
+    align-content: center;
 }
 
 #botHr{
     bottom: 10px;
     height: 750px;
-    display: grid;
     gap: 10px;
 }
 
@@ -66,7 +67,7 @@ div{
 */
 #news{
     float: none;
-    margin-right: 100pxpx;
+    margin-right: 100px;
     display: block;
     color: var(--main-font-color);
 }

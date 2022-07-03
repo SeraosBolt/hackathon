@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div>
+    <h1>Gestao de dados</h1>
+   <Table>
+        <tr>
+            <th>Produto adquirido</th>
+            <td><select>
+                <optgroup label="sementes">
+                    <option>milho</option>
+                    <option>soja</option>
+                    <option>aveia</option>
+                    <option>feijao</option>
+                    <option>trigo</option>
+                </optgroup>
+                 <optgroup label="Insumos">
+                    <option>Adubo</option>
+                    <option>Pesticida</option>
+                    <option>Cal agricola</option>
+                    <option>Herbicida</option>
+                </optgroup>
+                <optgroup label="Insumos mecanicos">
+                    <option>Arados</option>
+                    <option>Plantadeiras</option>
+                    <option>Tratores agricolas</option>
+                    <option>Pulverizadores</option>
+                    <option>Irrigação</option>
+                </optgroup>
+            </select></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+           <th>Preço de compra: </th>
+            <td><input id="peso1" type="number" placeholder="R$"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+           <th>Fornecedor</th>
+            <td><input id="peso2" type="text" placeholder=""></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Vencimento</th>
+            <td><input id="sacas" type="number" placeholder="Data"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+           <th>Quantidade adquirida</th>
+            <td><input type="number" placeholder="Quantidade" id="quantia"></td>
+            <td></td>
+            <td></td>
+        </tr>
+   </Table>
+</div>
+   <br>
+   <button id="salvar" type="button" >salvar</button>
+   <br>  <br>
+   <br> 
+   <hr>
+   <button id="btnAdicionaProduto">Adicionar Produto</button>
+  <table border="2px" solid black class="man1">
+    <tr>
+        <td>X</td>
+        <td>Preço de Compra</td>
+        <td>Quantidade adquirida</td>
+        <td>Vencimento</td>
+        <td>Fornecedor</td>
+    </tr>
+    <tr>
+        <td><p id="pItem"></p></td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+    </tr>
+    <tr>
+        <td>Milho</td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+    </tr>
+    <tr>
+        <td>Soja</td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+        <td>xxx</td>
+    </tr>
+  </table>
+</body>
+<script src='trabalho.js'></script>
+</html>

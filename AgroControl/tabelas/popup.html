@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Adicionar Item</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Produto</td>
+            <td>
+                <select id="selectProduto">
+                    <optgroup label="sementes">
+                        <option value="Milho">milho</option>
+                        <option value="Soja">soja</option>
+                        <option value="Aveia">aveia</option>
+                        <option value="Feijão">feijao</option>
+                        <option value="Trigo">trigo</option>
+                    </optgroup>
+                     <optgroup label="Insumos">
+                        <option value="Adubo">Adubo</option>
+                        <option value="Pesticida">Pesticida</option>
+                        <option value="Cal Agrícola">Cal agricola</option>
+                        <option value="Herbicida">Herbicida</option>
+                    </optgroup>
+                    <optgroup label="Insumos mecanicos">
+                        <option value="Arados">Arados</option>
+                        <option value="Plantadeiras">Plantadeiras</option>
+                        <option value="Tratores agricolas">Tratores agricolas</option>
+                        <option value="Pulverizadores">Pulverizadores</option>
+                        <option value="Irrigação">Irrigação</option>
+                    </optgroup>
+                </select>
+            </td>
+            <td>Quantidade</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td>Valor</td>
+            <td><input type="number"></td>
+            <td>Vencimento</td>
+            <td><input type="date" label="Data"></td>
+        </tr>
+        <tr>
+            <td>Fornecedor</td>
+            <td>
+                <select>
+                    <optgroup label="Cooperativas">
+                        <option>Coopavel</option>
+                        <option></option>
+                    </optgroup>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <button id="saver">Salvar</button>
+</body>
+<script src="trabalho.js"></script>
+</html></html>

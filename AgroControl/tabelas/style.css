@@ -1,0 +1,76 @@
+#salvar{
+    width: 75px;
+    height: 25px;
+}
+th{
+    font-family:'Times New Roman', Times, serif ;
+font-size: 15px ;
+font-weight: bold ;
+text-transform: capitalize ;
+text-align: left;
+color: chartreuse;
+text-shadow: 2px 4px 5px #000;
+
+}
+hr{
+    list-style: circle;
+    border-style: inset outset;
+    border-width: 5px;
+    border-color: #25c225;
+    
+}
+.man1{
+    background-color: chartreuse;
+    width: 150px;
+    height: 125px;
+    border-style: double groove;
+    border-width: 7.5px;
+    border-color:  whitesmoke;
+}
+body{
+    background-color: rgb(199, 228, 145);
+}
+td{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #ffe762;
+}
+button{
+    background-color: cadetblue;
+}
+button:focus, button::-moz-focus-inner{
+    outline:none;
+    border:none;
+  }
+  button{
+    font-family: arial;
+    font-size:14px;
+    text-transform: uppercase;
+    font-weight:700;
+    border:none;
+    padding:10px;
+    cursor: pointer;
+    display:inline-block;
+    text-decoration: none;
+    text-shadow: #000 2px 4px 5px;
+  }
+  button{
+    background:green;
+    color:#fff;
+    box-shadow:0 5px 0 #006000;
+  }
+ 
+  .btn-green:active, .btn-purple:active, .btn-red:active{
+    position:relative;
+    top:5px;
+    box-shadow:none;
+  }
+  h1{
+    color: chartreuse;
+    text-shadow: 1px 4px 7px #000;
+  }
+  div{
+    padding: 10px;
+    background-color: #046240;
+    border: 5px solid gray;
+    border-style: double groove;
+  }
